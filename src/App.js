@@ -6,6 +6,7 @@ import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 const Web3 = require("web3");
 const ethers = require('ethers');
+//
 
 
 const truncate = (input, len) =>
