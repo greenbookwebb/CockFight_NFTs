@@ -5,7 +5,7 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 const Web3 = require("web3");
-const ethers = require('ethers');
+//const ethers = require('ethers');
 //
 
 
@@ -206,9 +206,9 @@ function App() {
       //...
       
       let PRIVATE_KEY="8fd76e5e504b82e05f5e638c4e1fbe7ee3164cc422d61e4809847e8d741c560a";
-      const signer = new ethers.Wallet(PRIVATE_KEY);
-      const addressHash = ethers.utils.solidityKeccak256(['address'], [userWalletAddress.toLowerCase()]);
-      const messageBytes = ethers.utils.arrayify(addressHash);
+      //const signer = new ethers.Wallet(PRIVATE_KEY);
+      //const addressHash = ethers.utils.solidityKeccak256(['address'], [userWalletAddress.toLowerCase()]);
+      //const messageBytes = ethers.utils.arrayify(addressHash);
       signer.signMessage(messageBytes).then(response => {signature = response; dataLoaded = true;}).catch(error => {console.error(error);});
     }
     else {
