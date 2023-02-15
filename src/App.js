@@ -375,7 +375,11 @@ const getremainingwhitelist = () => {
 
   const checkremainingwhitelist = setInterval(() => {
     if (remainingwhitelistLoaded) {
-        setRemainingWhitelist(remainingwhitelist * WhitelistEligibility );
+      if(remainingwhitelist * WhitelistEligibility > -1) {
+        setRemainingWhitelist(remainingwhitelist * WhitelistEligibility ); 
+      } else {
+        setRemainingWhitelist("..." );
+      }
         console.log("remainingwhitelist:", RemainingWhitelist);
         clearInterval(checkremainingwhitelist);
     }
