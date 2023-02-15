@@ -375,7 +375,7 @@ const getremainingwhitelist = () => {
 
   const checkremainingwhitelist = setInterval(() => {
     if (remainingwhitelistLoaded) {
-        setRemainingWhitelist(remainingwhitelist);
+        setRemainingWhitelist(remainingwhitelist * WhitelistEligibility );
         console.log("remainingwhitelist:", RemainingWhitelist);
         clearInterval(checkremainingwhitelist);
     }
@@ -752,7 +752,7 @@ const getremainingpublic = () => {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Remaining Whitelist Mints: {RemainingWhitelist* WhitelistEligibility}
+                  Remaining Whitelist Mints: {RemainingWhitelist}
                 </s.TextTitle>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
