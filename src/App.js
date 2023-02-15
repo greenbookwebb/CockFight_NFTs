@@ -205,7 +205,7 @@ function App() {
     if(whitelist.includes(userWalletAddress)) {
       //...
       
-      let PRIVATE_KEY="8fd76e5e504b82e05f5e638c4e1fbe7ee3164cc422d61e4809847e8d741c560a";
+      
       //const signer = new ethers.Wallet(PRIVATE_KEY);
       //const addressHash = ethers.utils.solidityKeccak256(['address'], [userWalletAddress.toLowerCase()]);
       //const messageBytes = ethers.utils.arrayify(addressHash);
