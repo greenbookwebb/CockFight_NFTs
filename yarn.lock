@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@adraffy/ens-normalize@^1.8.10":
+  "integrity" "sha512-0HvpfDZN/iBPXsVOKcIj6nqOlkoyR3oug1FuEi42v0muzQGef86josUKmVc4idesX97zBAATYCEnQza3aLjjdA=="
+  "resolved" "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.8.10.tgz"
+  "version" "1.8.10"
+
 "@adraffy/ens-normalize@1.8.9":
   "integrity" "sha512-93OmGCV0vO8+JQ3FHG+gZk/MPHzzMPDRiCiFcCQNTCnHaaxsacO3ScTPGlu2wX2dOtgfalbchPcw1cOYYjHCYQ=="
   "resolved" "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.8.9.tgz"
