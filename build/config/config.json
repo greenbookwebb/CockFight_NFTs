@@ -1,0 +1,20 @@
+{
+  "CONTRACT_ADDRESS": "0xFd357A1C1029EE12809037E5fCbf5c234b4CEc33",
+  "SCAN_LINK": "https://goerli.arbiscan.io/token/0xfd357a1c1029ee12809037e5fcbf5c234b4cec33",
+  "NETWORK": {
+    "NAME": "Arbitrum Goerli",
+    "SYMBOL": "ETH",
+    "ID": 421613
+  },
+  "NFT_NAME": "CockFight",
+  "SYMBOL": "CKF",
+  "MAX_SUPPLY": 5555,
+  "WEI_COST_WHITELIST": 1000000000000000,
+  "WEI_COST_PUBLIC": 2000000000000000, 
+  "DISPLAY_COST_WHITELIST": 0.001,
+  "DISPLAY_COST_PUBLIC": 0.002,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "SHOW_BACKGROUND": true
+}
